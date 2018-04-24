@@ -23,22 +23,14 @@ Gem::Specification.new do |s|
   s.summary = %q{A Rails plugin for Japanese mobile-phones}
   s.test_files = Dir['spec/**/*.*', 'test/**/"."' 'tmp/**/*.*']
 
-  s.add_development_dependency(%q<jeweler>, [">= 0"])
-  s.add_development_dependency(%q<rails>, [">= 3.0.3"])
-  s.add_development_dependency(%q<rspec>, [">= 2.3.0"])
-  s.add_development_dependency(%q<rspec-rails>, [">= 2.3.0"])
-  s.add_development_dependency(%q<webrat>, [">= 0"])
-  s.add_development_dependency(%q<geokit>, [">= 0"])
-  s.add_development_dependency(%q<sqlite3-ruby>, [">= 0"])
-  s.add_development_dependency(%q<hpricot>, [">= 0"])
-  s.add_development_dependency(%q<jeweler>, [">= 1.5.1"])
-  s.add_development_dependency(%q<rspec>, [">= 2.3.0"])
-  s.add_development_dependency(%q<rspec-rails>, [">= 2.3.0"])
-  s.add_development_dependency(%q<webrat>, [">= 0.7.2"])
   s.add_development_dependency(%q<geokit>, [">= 1.5.0"])
-  s.add_development_dependency(%q<sqlite3-ruby>, [">= 1.3.2"])
-  s.add_development_dependency(%q<hpricot>, [">= 0.8.3"])
   s.add_development_dependency(%q<git>, [">= 1.2.5"])
+  s.add_development_dependency(%q<hpricot>, [">= 0.8.3"])
+  s.add_development_dependency(%q<jeweler>, [">= 1.5.1"])
   s.add_development_dependency(%q<rails>, [">= 3.0.3"])
+  s.add_development_dependency(%q<rspec-rails>, [">= 2.3.0"])
+  s.add_development_dependency(%q<rspec>, [">= 2.3.0"])
+  s.add_development_dependency(%q<sqlite3-ruby>, [">= 1.3.2"])
+  s.add_development_dependency(%q<webrat>, [">= 0.7.2"])
 end
 
