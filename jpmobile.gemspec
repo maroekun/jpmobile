@@ -23,14 +23,6 @@ Gem::Specification.new do |s|
   s.summary = %q{A Rails plugin for Japanese mobile-phones}
   s.test_files = Dir['spec/**/*.*', 'test/**/"."' 'tmp/**/*.*']
 
-  s.add_development_dependency(%q<jeweler>, [">= 0"])
-  s.add_development_dependency(%q<rails>, [">= 3.2.8"])
-  s.add_development_dependency(%q<rspec>, [">= 2.3.0"])
-  s.add_development_dependency(%q<rspec-rails>, [">= 2.3.0"])
-  s.add_development_dependency(%q<webrat>, [">= 0"])
-  s.add_development_dependency(%q<geokit>, [">= 0"])
-  s.add_development_dependency(%q<sqlite3-ruby>, [">= 0"])
-  s.add_development_dependency(%q<hpricot>, [">= 0"])
   s.add_development_dependency(%q<jeweler>, [">= 1.5.1"])
   s.add_development_dependency(%q<rspec>, [">= 2.3.0"])
   s.add_development_dependency(%q<rspec-rails>, [">= 2.3.0"])
